@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/mall-content-web" />
+    <file type="web" url="file://$PROJECT_DIR$/mall-content/mall-content-service" />
     <file type="web" url="file://$PROJECT_DIR$/mall-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/mall-manager/mall-manager-interface" />
     <file type="web" url="file://$PROJECT_DIR$/mall-manager/mall-manager-service" />
@@ -15,6 +17,8 @@
         <option value="$PROJECT_DIR$/mall-parent/pom.xml" />
         <option value="$PROJECT_DIR$/mall-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/mall-manager/mall-manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-content/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-content-web/pom.xml" />
       </list>
     </option>
   </component>

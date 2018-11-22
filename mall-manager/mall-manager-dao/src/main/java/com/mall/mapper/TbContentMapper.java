@@ -1,6 +1,9 @@
 package com.mall.mapper;
 
 import com.mall.pojo.TbContent;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface TbContentMapper {
     int deleteByPrimaryKey(Long id);
@@ -16,4 +19,11 @@ public interface TbContentMapper {
     int updateByPrimaryKeyWithBLOBs(TbContent record);
 
     int updateByPrimaryKey(TbContent record);
+
+    /**
+     * 根据内容分类id查询内容列表
+     * @param cid 内容分类id
+     * @return
+     */
+    List<TbContent> selectByCid(Long cid);
 }

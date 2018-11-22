@@ -1,6 +1,9 @@
 package com.mall.mapper;
 
 import com.mall.pojo.TbItem;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface TbItemMapper {
     int deleteByPrimaryKey(Long id);
@@ -14,4 +17,6 @@ public interface TbItemMapper {
     int updateByPrimaryKeySelective(TbItem record);
 
     int updateByPrimaryKey(TbItem record);
+
+    List<TbItem> selectAll(@Param("page") int page,@Param("rows") int rows);
 }

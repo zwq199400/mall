@@ -1,14 +1,12 @@
 package com.mall.controller;
 
+import com.mall.common.pojo.EasyUIDataGridResult;
 import com.mall.common.pojo.TreeNode;
 import com.mall.pojo.TbItem;
 import com.mall.service.ItemCatService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import com.mall.service.ItemService;
 
 import java.util.List;
@@ -30,12 +28,23 @@ public class ItemController {
         TbItem tbItem = itemService.getItemById(itemId);
         return tbItem;
     }
-    @RequestMapping("/item/cat/list")
-    @ResponseBody
-    public List<TreeNode> getItemCatList(@RequestParam(value="id", defaultValue="0")Long parentId) {
 
-        List<TreeNode> list = itemCatService.getCatList(parentId);
-        return list;
+
+    @RequestMapping("/item/list")
+    @ResponseBody
+    public EasyUIDataGridResult getItemList(Integer page, Integer rows) {
+        //调用服务查询商品列表
+        EasyUIDataGridResult result = itemService.getItemList(page, rows);
+        return result;
+    }
+
+    /**
+     * 商品添加功能
+     */
+    @RequestMapping(value="/item/save", method=RequestMethod.POST)
+    @ResponseBody
+    public String addItem(TbItem item, String desc) {
+        return itemService.addItem(item, desc);
     }
 
 

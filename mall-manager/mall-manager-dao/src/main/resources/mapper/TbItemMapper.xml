@@ -160,4 +160,11 @@
       updated = #{updated,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=BIGINT}
   </update>
+
+  <select id="selectAll" resultMap="BaseResultMap">
+    select * from tb_item
+    <if test="rows != 0">
+      limit #{page},#{rows}
+    </if>
+  </select>
 </mapper>

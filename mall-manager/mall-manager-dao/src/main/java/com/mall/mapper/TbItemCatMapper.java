@@ -1,7 +1,6 @@
 package com.mall.mapper;
 
 import com.mall.pojo.TbItemCat;
-import com.mall.pojo.example.TbItemCatExample;
 
 import java.util.List;
 

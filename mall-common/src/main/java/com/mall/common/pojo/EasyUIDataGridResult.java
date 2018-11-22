@@ -1,12 +1,13 @@
 package com.mall.common.pojo;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * @author zwq
  * @date 2018/11/12 13:26
  */
-public class EasyUIDataGridResult {
+public class EasyUIDataGridResult implements Serializable {
     private Integer total;
 
     private List<?> rows;

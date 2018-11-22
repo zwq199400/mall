@@ -180,4 +180,8 @@
       updated = #{updated,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=BIGINT}
   </update>
+
+  <select id="selectByCid" parameterType="java.lang.Long" resultMap="ResultMapWithBLOBs">
+    select * from tb_content where category_id = #{cid};
+  </select>
 </mapper>
