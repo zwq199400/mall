@@ -13,7 +13,7 @@
         <artifactId>mall-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <name>mall-content-web Maven Webapp</name>
+    <name>mall-content-web</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 

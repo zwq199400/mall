@@ -83,8 +83,8 @@
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
-            <version>2.6.3</version>
-            <scope>test</scope>
+            <!--<version>2.6.3</version>-->
+            <!--<scope>test</scope>-->
         </dependency>
     </dependencies>
 

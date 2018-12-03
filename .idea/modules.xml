@@ -15,6 +15,10 @@
       <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager-service/mall-manager-service.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager-service/mall-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-manager-web/mall-manager-web.iml" filepath="$PROJECT_DIR$/mall-manager-web/mall-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-parent/mall-parent.iml" filepath="$PROJECT_DIR$/mall-parent/mall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-search/mall-search.iml" filepath="$PROJECT_DIR$/mall-search/mall-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-search/mall-search-interface/mall-search-interface.iml" filepath="$PROJECT_DIR$/mall-search/mall-search-interface/mall-search-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-search/mall-search-service/mall-search-service.iml" filepath="$PROJECT_DIR$/mall-search/mall-search-service/mall-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-search-web/mall-search-web.iml" filepath="$PROJECT_DIR$/mall-search-web/mall-search-web.iml" />
     </modules>
   </component>
 </project>

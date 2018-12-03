@@ -6,6 +6,8 @@
     <file type="web" url="file://$PROJECT_DIR$/mall-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/mall-manager/mall-manager-interface" />
     <file type="web" url="file://$PROJECT_DIR$/mall-manager/mall-manager-service" />
+    <file type="web" url="file://$PROJECT_DIR$/mall-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/mall-search/mall-search-service" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -19,6 +21,10 @@
         <option value="$PROJECT_DIR$/mall-manager/mall-manager-service/pom.xml" />
         <option value="$PROJECT_DIR$/mall-content/pom.xml" />
         <option value="$PROJECT_DIR$/mall-content-web/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-search/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-search/mall-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-search/mall-search-interface/pom.xml" />
       </list>
     </option>
   </component>

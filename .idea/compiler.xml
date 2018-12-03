@@ -14,6 +14,9 @@
         <module name="mall-manager-pojo" />
         <module name="mall-manager-service" />
         <module name="mall-manager-web" />
+        <module name="mall-search-interface" />
+        <module name="mall-search-service" />
+        <module name="mall-search-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +32,10 @@
       <module name="mall-manager-service" target="1.7" />
       <module name="mall-manager-web" target="1.7" />
       <module name="mall-parent" target="1.7" />
+      <module name="mall-search" target="1.7" />
+      <module name="mall-search-interface" target="1.7" />
+      <module name="mall-search-service" target="1.7" />
+      <module name="mall-search-web" target="1.7" />
       <module name="mallcontent" target="1.5" />
     </bytecodeTargetLevel>
   </component>

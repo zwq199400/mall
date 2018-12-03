@@ -11,7 +11,7 @@
 
     <artifactId>mall-manager-service</artifactId>
     <packaging>war</packaging>
-    <name>mall-manager-com.mall.service</name>
+    <name>mall-manager-service</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 

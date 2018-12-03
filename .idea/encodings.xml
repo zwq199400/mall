@@ -13,5 +13,9 @@
     <file url="file://$PROJECT_DIR$/mall-manager/mall-manager-pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mall-manager/mall-manager-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mall-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-search-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-search/mall-search-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-search/mall-search-service" charset="UTF-8" />
   </component>
 </project>
