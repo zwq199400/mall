@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * 索引库维护Service
+ * @author zwq
  */
 @Service
 public class SearchItemServiceImpl implements SearchItemService {

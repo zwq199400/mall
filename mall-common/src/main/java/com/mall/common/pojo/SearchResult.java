@@ -3,6 +3,9 @@ package com.mall.common.pojo;
 import java.io.Serializable;
 import java.util.List;
 
+/**
+ * @author zwq
+ */
 public class SearchResult implements Serializable {
 
 	private long recordCount;

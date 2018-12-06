@@ -2,6 +2,9 @@ package com.mall.mapper;
 
 import com.mall.pojo.TbOrderShipping;
 
+/**
+ * @author zwq
+ */
 public interface TbOrderShippingMapper {
     int deleteByPrimaryKey(String orderId);
 

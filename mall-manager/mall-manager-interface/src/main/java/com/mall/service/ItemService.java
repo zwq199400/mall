@@ -2,6 +2,7 @@ package com.mall.service;
 
 import com.mall.common.pojo.EasyUIDataGridResult;
 import com.mall.pojo.TbItem;
+import com.mall.pojo.TbItemDesc;
 
 /**
  * @author zwq
@@ -26,5 +27,7 @@ public interface ItemService {
      * @return
      */
     String addItem(TbItem item, String desc);
+
+    TbItemDesc getItemDescById(long itemId);
 
 }

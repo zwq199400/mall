@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * 商品搜索dao
+ * @author zwq
  */
 @Repository
 public class SearchDao {

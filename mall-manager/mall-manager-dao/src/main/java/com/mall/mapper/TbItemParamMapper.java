@@ -2,6 +2,9 @@ package com.mall.mapper;
 
 import com.mall.pojo.TbItemParam;
 
+/**
+ * @author zwq
+ */
 public interface TbItemParamMapper {
     int deleteByPrimaryKey(Long id);
 

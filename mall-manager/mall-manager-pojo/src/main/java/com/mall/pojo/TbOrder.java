@@ -3,6 +3,9 @@ package com.mall.pojo;
 import java.io.Serializable;
 import java.util.Date;
 
+/**
+ * @author zwq
+ */
 public class TbOrder implements Serializable {
     private String orderId;
 

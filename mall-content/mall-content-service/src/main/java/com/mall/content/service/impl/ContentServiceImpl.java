@@ -16,6 +16,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * 内容管理Service
+ * @author zwq
  */
 @Service
 public class ContentServiceImpl implements ContentService {
@@ -26,7 +27,7 @@ public class ContentServiceImpl implements ContentService {
 	private JedisClient jedisClient;
 
 	@Value("${CONTENT_LIST}")
-	private String CONTENT_LIST;
+	private String contentList;
 	
 	@Override
 	public String addContent(TbContent content) {
@@ -36,7 +37,7 @@ public class ContentServiceImpl implements ContentService {
 		//插入到数据库
 		contentMapper.insert(content);
 		//缓存同步,删除缓存中对应的数据。
-		jedisClient.hdel(CONTENT_LIST, content.getCategoryId().toString());
+		jedisClient.hdel(contentList, content.getCategoryId().toString());
 		return "success";
 	}
 
@@ -45,7 +46,7 @@ public class ContentServiceImpl implements ContentService {
 		//查询缓存
 		try {
 			//如果缓存中有直接响应结果
-			String json = jedisClient.hget(CONTENT_LIST, cid + "");
+			String json = jedisClient.hget(contentList, cid + "");
 			if (StringUtils.isNotBlank(json)) {
 				List<TbContent> list = JsonUtils.jsonToList(json, TbContent.class);
 				return list;
@@ -57,7 +58,7 @@ public class ContentServiceImpl implements ContentService {
 		List<TbContent> list = contentMapper.selectByCid(cid);
 		//把结果添加到缓存
 		try {
-			jedisClient.hset(CONTENT_LIST, cid + "", JsonUtils.objectToJson(list));
+			jedisClient.hset(contentList, cid + "", JsonUtils.objectToJson(list));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

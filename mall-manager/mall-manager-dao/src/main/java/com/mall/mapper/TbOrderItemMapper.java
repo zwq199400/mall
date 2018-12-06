@@ -2,6 +2,9 @@ package com.mall.mapper;
 
 import com.mall.pojo.TbOrderItem;
 
+/**
+ * @author zwq
+ */
 public interface TbOrderItemMapper {
     int deleteByPrimaryKey(String id);
 

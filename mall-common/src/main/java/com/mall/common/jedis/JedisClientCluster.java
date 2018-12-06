@@ -4,7 +4,9 @@ import redis.clients.jedis.JedisCluster;
 
 import java.util.List;
 
-
+/**
+ * @author zwq
+ */
 public class JedisClientCluster implements JedisClient {
 	
 	private JedisCluster jedisCluster;

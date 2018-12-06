@@ -2,6 +2,9 @@ package com.mall.mapper;
 
 import com.mall.pojo.TbUser;
 
+/**
+ * @author zwq
+ */
 public interface TbUserMapper {
     int deleteByPrimaryKey(Long id);
 

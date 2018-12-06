@@ -3,6 +3,9 @@ package com.mall.pojo;
 import java.io.Serializable;
 import java.util.Date;
 
+/**
+ * @author zwq
+ */
 public class TbContent implements Serializable {
     private Long id;
 

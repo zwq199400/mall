@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class IndexController {
 	
 	@Value("${CONTENT_LUNBO_ID}")
-	private Long CONTENT_LUNBO_ID;
+	private Long contentID;
 	
 	@Autowired
 	private ContentService contentService;
@@ -27,7 +27,7 @@ public class IndexController {
 	@RequestMapping("/index")
 	public String showIndex(Model model) {
 		//查询内容列表
-		List<TbContent> ad1List = contentService.getContentListByCid(CONTENT_LUNBO_ID);
+		List<TbContent> ad1List = contentService.getContentListByCid(contentID);
 		// 把结果传递给页面
 		model.addAttribute("ad1List", ad1List);
 		return "index";

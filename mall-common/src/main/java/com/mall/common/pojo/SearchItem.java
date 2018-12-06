@@ -2,6 +2,9 @@ package com.mall.common.pojo;
 
 import java.io.Serializable;
 
+/**
+ * @author zwq
+ */
 public class SearchItem implements Serializable{
 	private String id;
 	private String title;

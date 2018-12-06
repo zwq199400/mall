@@ -4,6 +4,9 @@ import com.mall.pojo.TbItemCat;
 
 import java.util.List;
 
+/**
+ * @author zwq
+ */
 public interface TbItemCatMapper {
     int deleteByPrimaryKey(Long id);
 

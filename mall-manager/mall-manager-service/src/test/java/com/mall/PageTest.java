@@ -1,4 +1,4 @@
-package mall;
+package com.mall;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;

@@ -2,6 +2,9 @@ package com.mall.common.jedis;
 
 import java.util.List;
 
+/**
+ * @author zwq
+ */
 public interface JedisClient {
 
 	String set(String key, String value);

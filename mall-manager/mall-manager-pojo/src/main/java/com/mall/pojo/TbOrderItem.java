@@ -2,6 +2,9 @@ package com.mall.pojo;
 
 import java.io.Serializable;
 
+/**
+ * @author zwq
+ */
 public class TbOrderItem implements Serializable {
     private String id;
 
