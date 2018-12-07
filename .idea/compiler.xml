@@ -9,6 +9,7 @@
         <module name="mall-content-interface" />
         <module name="mall-content-service" />
         <module name="mall-content-web" />
+        <module name="mall-item-web" />
         <module name="mall-manager-dao" />
         <module name="mall-manager-interface" />
         <module name="mall-manager-pojo" />
@@ -17,6 +18,9 @@
         <module name="mall-search-interface" />
         <module name="mall-search-service" />
         <module name="mall-search-web" />
+        <module name="mall-sso-interface" />
+        <module name="mall-sso-service" />
+        <module name="mall-sso-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +29,7 @@
       <module name="mall-content-interface" target="1.7" />
       <module name="mall-content-service" target="1.7" />
       <module name="mall-content-web" target="1.7" />
+      <module name="mall-item-web" target="1.7" />
       <module name="mall-manager" target="1.7" />
       <module name="mall-manager-dao" target="1.7" />
       <module name="mall-manager-interface" target="1.7" />
@@ -36,6 +41,10 @@
       <module name="mall-search-interface" target="1.7" />
       <module name="mall-search-service" target="1.7" />
       <module name="mall-search-web" target="1.7" />
+      <module name="mall-sso" target="1.7" />
+      <module name="mall-sso-interface" target="1.7" />
+      <module name="mall-sso-service" target="1.7" />
+      <module name="mall-sso-web" target="1.7" />
       <module name="mallcontent" target="1.5" />
     </bytecodeTargetLevel>
   </component>

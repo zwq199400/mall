@@ -59,6 +59,9 @@
           <element id="archive" name="mall-content-interface-1.0-SNAPSHOT.jar">
             <element id="module-output" name="mall-content-interface" />
           </element>
+          <element id="archive" name="mall-search-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="mall-search-interface" />
+          </element>
         </element>
       </element>
       <element id="directory" name="META-INF">

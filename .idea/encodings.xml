@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/mall-content-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mall-content/mall-content-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mall-content/mall-content-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-item-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mall-manager" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mall-manager-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mall-manager/mall-manager-dao" charset="UTF-8" />
@@ -17,5 +18,9 @@
     <file url="file://$PROJECT_DIR$/mall-search-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mall-search/mall-search-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mall-search/mall-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-sso-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-sso/mall-sso-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-sso/mall-sso-service" charset="UTF-8" />
   </component>
 </project>

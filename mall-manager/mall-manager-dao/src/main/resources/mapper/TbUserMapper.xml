@@ -114,4 +114,12 @@
       updated = #{updated,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=BIGINT}
   </update>
+
+  <select id="selectByName" parameterType="java.lang.String" resultMap="BaseResultMap">
+    SELECT * from tb_user where username = #{username,jdbcType=VARCHAR}
+  </select>
+
+  <select id="checkByParam" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select * from tb_user where ${param}
+  </select>
 </mapper>
