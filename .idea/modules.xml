@@ -3,48 +3,26 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/mall.iml" filepath="$PROJECT_DIR$/.idea/mall.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/mall.iml" filepath="$PROJECT_DIR$/.idea/mall.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-common/mall-common.iml" filepath="$PROJECT_DIR$/mall-common/mall-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-common/mall-common.iml" filepath="$PROJECT_DIR$/mall-common/mall-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-content/mall-content.iml" filepath="$PROJECT_DIR$/mall-content/mall-content.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-content/mall-content.iml" filepath="$PROJECT_DIR$/mall-content/mall-content.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-content/mall-content-interface/mall-content-interface.iml" filepath="$PROJECT_DIR$/mall-content/mall-content-interface/mall-content-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-content/mall-content-interface/mall-content-interface.iml" filepath="$PROJECT_DIR$/mall-content/mall-content-interface/mall-content-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-content/mall-content-service/mall-content-service.iml" filepath="$PROJECT_DIR$/mall-content/mall-content-service/mall-content-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-content/mall-content-service/mall-content-service.iml" filepath="$PROJECT_DIR$/mall-content/mall-content-service/mall-content-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-content-web/mall-content-web.iml" filepath="$PROJECT_DIR$/mall-content-web/mall-content-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-content-web/mall-content-web.iml" filepath="$PROJECT_DIR$/mall-content-web/mall-content-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-item-web/mall-item-web.iml" filepath="$PROJECT_DIR$/mall-item-web/mall-item-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-item-web/mall-item-web.iml" filepath="$PROJECT_DIR$/mall-item-web/mall-item-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager-dao/mall-manager-dao.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager-dao/mall-manager-dao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager-dao/mall-manager-dao.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager-dao/mall-manager-dao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager-interface/mall-manager-interface.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager-interface/mall-manager-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager-interface/mall-manager-interface.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager-interface/mall-manager-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager-pojo/mall-manager-pojo.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager-pojo/mall-manager-pojo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager-pojo/mall-manager-pojo.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager-pojo/mall-manager-pojo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager-service/mall-manager-service.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager-service/mall-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager-service/mall-manager-service.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager-service/mall-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-manager-web/mall-manager-web.iml" filepath="$PROJECT_DIR$/mall-manager-web/mall-manager-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-manager-web/mall-manager-web.iml" filepath="$PROJECT_DIR$/mall-manager-web/mall-manager-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-parent/mall-parent.iml" filepath="$PROJECT_DIR$/mall-parent/mall-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-parent/mall-parent.iml" filepath="$PROJECT_DIR$/mall-parent/mall-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-search/mall-search.iml" filepath="$PROJECT_DIR$/mall-search/mall-search.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-search/mall-search.iml" filepath="$PROJECT_DIR$/mall-search/mall-search.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-search/mall-search-interface/mall-search-interface.iml" filepath="$PROJECT_DIR$/mall-search/mall-search-interface/mall-search-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-search/mall-search-interface/mall-search-interface.iml" filepath="$PROJECT_DIR$/mall-search/mall-search-interface/mall-search-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-search/mall-search-service/mall-search-service.iml" filepath="$PROJECT_DIR$/mall-search/mall-search-service/mall-search-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-search/mall-search-service/mall-search-service.iml" filepath="$PROJECT_DIR$/mall-search/mall-search-service/mall-search-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-search-web/mall-search-web.iml" filepath="$PROJECT_DIR$/mall-search-web/mall-search-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-search-web/mall-search-web.iml" filepath="$PROJECT_DIR$/mall-search-web/mall-search-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-sso/mall-sso.iml" filepath="$PROJECT_DIR$/mall-sso/mall-sso.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-sso/mall-sso.iml" filepath="$PROJECT_DIR$/mall-sso/mall-sso.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-sso/mall-sso-interface/mall-sso-interface.iml" filepath="$PROJECT_DIR$/mall-sso/mall-sso-interface/mall-sso-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-sso/mall-sso-interface/mall-sso-interface.iml" filepath="$PROJECT_DIR$/mall-sso/mall-sso-interface/mall-sso-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-sso/mall-sso-service/mall-sso-service.iml" filepath="$PROJECT_DIR$/mall-sso/mall-sso-service/mall-sso-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-sso/mall-sso-service/mall-sso-service.iml" filepath="$PROJECT_DIR$/mall-sso/mall-sso-service/mall-sso-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-sso-web/mall-sso-web.iml" filepath="$PROJECT_DIR$/mall-sso-web/mall-sso-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-sso-web/mall-sso-web.iml" filepath="$PROJECT_DIR$/mall-sso-web/mall-sso-web.iml" />
     </modules>
   </component>
